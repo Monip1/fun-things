@@ -6,4 +6,4 @@ Are you familiar with ...
 3. Star Trek: The Next Generation and
 4. Felix of Stray kids?
 
-        [Yes](https://monip1.github.io/fun-things/ForFun.html)     [No](https://monip1.github.io/fun-things/info-hub.html)
+[Yes](https://monip1.github.io/fun-things/ForFun.html) or [No](https://monip1.github.io/fun-things/info-hub.html)
