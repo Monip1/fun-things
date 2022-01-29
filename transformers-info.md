@@ -1,4 +1,4 @@
-[Back](https://monip1.github.io/fun-things/info-hub.html)
+[Back](https://monip1.github.io/fun-things/)
 
 Optimus Prime is the leader of the free Autobots,  recognizable by his bright red and blue colors.
 ![optimus](pictures/optimus.jpg)

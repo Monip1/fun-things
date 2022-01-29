@@ -69,3 +69,5 @@ Yeosang gives Starscream his second set of clout glasses and everyone parts ways
 
 Thank you, now I need sleep, 
 ![leave](pictures\please-leave.jpg)
+
+[Back](https://monip1.github.io/fun-things/)
