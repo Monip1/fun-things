@@ -308,7 +308,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
 			canRemoveOrSet = true;
 			forward = true;
 			idx++;
-			return left.getElement();
+			return (E) left.getElement();
 		}
 		/**
 		 * detects if there is an element before the iterator in the list
@@ -333,7 +333,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
 			canRemoveOrSet = true;
 			forward = false;
 			idx--;
-			return right.getElement();
+			return (E) right.getElement();
 		}
 		/**
 		 * @return the index of the item next to the iterator

@@ -30,19 +30,23 @@ My Way
         Path filePath = Path.of(args[0]);
 	    String songFile = Files.readString(filePath);
         String toWrite = "";
+
+        // make a linked list of song nodes
         String[] songsArray = songFile.split("\n");
         MyLinkedList<Song> songs = new MyLinkedList<>();
-        // MyLinkedList.MyListIterator iter = songs.new MyListIterator();
+        MyLinkedList.MyListIterator iter;
         for(String song: songsArray){
             songs.add(new Song(song));
         }
+        iter = songs.new MyListIterator();
         System.out.println("Before edits");
         for(int i = 0; i < songs.size(); i++){
             // System.out.println(songs.get(i));
-            songs.get(i).printSongData();
+            ((Song) iter.next()).printSongData();
         }
 
 
+        //Turn linked list back into a string to be written to the file 
         for(int i = 0; i < songs.size(); i++){
             toWrite += songs.get(i) + "\n";
         }
