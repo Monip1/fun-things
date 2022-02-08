@@ -335,6 +335,26 @@ public class MyLinkedList<E> extends AbstractList<E> {
 			idx--;
 			return (E) right.getElement();
 		}
+
+		/**
+		 * @return the item next to the iterator
+		 */
+		public E nextItem(){
+			if(hasNext()){
+				return right.getElement();
+			}
+			return null;
+		}
+		/**
+		 * @return the item previous to the iterator
+		 */
+		public E previousItem(){
+			if(hasPrevious()){
+				return left.getElement();
+			}
+			return null;
+		}
+
 		/**
 		 * @return the index of the item next to the iterator
 		 */
@@ -406,6 +426,14 @@ public class MyLinkedList<E> extends AbstractList<E> {
 			}
 			canRemoveOrSet = false;
 		}//remove
+
+		public void reset(){
+			this.left = head;
+			this.right = head.getNext();
+			this.idx = 0;
+			this.forward = true;
+			this.canRemoveOrSet = false;
+		}
 
 	}//Iterator
 
