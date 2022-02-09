@@ -1,12 +1,12 @@
-# [Welcome to the chaos.](https://monip1.github.io/fun-things/)
+# [Welcome to the chaos.](https://monip1.github.io/Chaos/fun-things/)
 
-## [Big Red Button](https://monip1.github.io/fun-things/ForFun.html)
+## [Big Red Button](https://monip1.github.io/fun-things/Chaos/ForFun.html)
 
 While you can press that button at any time, you should be at least aware of the following.
 1. [Ateez](ateez-info.md)
 2. [Transformers](transformers-info.md)
-3. [Star Trek: The Next Generation](https://monip1.github.io/fun-things/star-trek-info.html) and
-4. [Felix of Stray kids](https://monip1.github.io/fun-things/felix-info.html)?
+3. [Star Trek: The Next Generation](https://monip1.github.io/fun-things/Chaos/star-trek-info.html) and
+4. [Felix of Stray kids](https://monip1.github.io/fun-things/Chaos/felix-info.html)?
 
 
 
