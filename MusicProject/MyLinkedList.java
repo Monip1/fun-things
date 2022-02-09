@@ -1,3 +1,4 @@
+package MusicProject;
 /**
  * Name: Elena Tomson
  * Email: etomson@ucsd.edu

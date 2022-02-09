@@ -1,3 +1,4 @@
+package MusicProject;
 /**
  * A Song with statistics.
  */

@@ -1,9 +1,11 @@
+package MusicProject;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 
-
+//javac MusicProject/Music.java
+//java MusicProject/Music MusicProject/Songs.txt
 public class Music{
 
 
@@ -45,11 +47,6 @@ My Way
         }
 
         Menu.start(songs);
-        // System.out.println("Before edits");
-        // for(int i = 0; i < songs.size(); i++){
-        //     // System.out.println(songs.get(i));
-        //     ((Song) iter.next()).printSongData();
-        // }
 
 
         // Turn linked list back into a string to be written to the file 
