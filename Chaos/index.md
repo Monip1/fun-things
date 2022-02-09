@@ -1,4 +1,4 @@
-# [Welcome to the chaos.](https://monip1.github.io/Chaos/fun-things/)
+# [Welcome to the chaos.](https://monip1.github.io/fun-things/Chaos/)
 
 ## [Big Red Button](https://monip1.github.io/fun-things/Chaos/ForFun.html)
 

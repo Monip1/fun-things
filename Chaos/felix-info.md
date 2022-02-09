@@ -1,4 +1,4 @@
-[Back](https://monip1.github.io/Chaos/fun-things/)
+[Back](https://monip1.github.io/fun-things/Chaos/)
 
 Stray kids is a band from Korea consisting of 8 members and Felix is one of them.
 

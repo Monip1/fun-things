@@ -1,4 +1,4 @@
-[Back](https://monip1.github.io/Chaos/fun-things/)
+[Back](https://monip1.github.io/fun-things/Chaos/)
 
 Star Trek: The Next Generation, is a tv series set in the 24th century.
 The ship is the Enterprise D, designation NCC 1701-D, and is the 5th starship to bear the name "Enterprise".

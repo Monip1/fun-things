@@ -1,4 +1,4 @@
-[Back](https://monip1.github.io/Chaos/fun-things/)
+[Back](https://monip1.github.io/fun-things/Chaos/)
 
 ![pirates](../pictures/ateez-8-pirates.jpg)
 Ateez is a band from Korea composed of 8 members:
