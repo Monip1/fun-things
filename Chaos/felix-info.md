@@ -4,7 +4,7 @@ Stray kids is a band from Korea consisting of 8 members and Felix is one of them
 
 Felix was born and raised in Australia before moving to Korea and becoming an idol.
 
-![felix](pictures/felix-face.jpg)
+![felix](../pictures/felix-face.jpg)
 
 One of his funniest moments involves the other Aussie in Stray Kids, who is behind the camera in [this clip](https://www.youtube.com/watch?v=CVosZbk65KI)
 

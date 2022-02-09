@@ -1,11 +1,15 @@
+/**
+ * A Song with statistics.
+ */
+
 public class Song {
     
-    String title;
-    String album;
-    String artist;
-    boolean like;
-    double rating;
-    boolean hype;
+    private String title;
+    private String album;
+    private String artist;
+    private boolean like;
+    private double rating;
+    private boolean hype;
     /**
     * 1-- S Ult
     * 2-- A Love
@@ -16,28 +20,28 @@ public class Song {
     * 7-- F Don't Know
     * 8-- G Dislike
     */
-   int tier;   
+    private int tier;   
    /**
     * 1-- happy
     * 2-- sad
     * 
     */
-   int type; 
+    private int type; 
 
     //CONSTANTS
-    int TITLE_INDEX = 0;
-    int ALBUM_INDEX = 1;
-    int ARTIST_INDEX = 2;
-    int LIKE_INDEX = 3;
-    int RATING_INDEX = 4;
-    int HYPE_INDEX = 5;
-    int TIER_INDEX = 6;
-    int TYPE_INDEX = 7;
+    private int TITLE_INDEX = 0;
+    private int ALBUM_INDEX = 1;
+    private int ARTIST_INDEX = 2;
+    private int LIKE_INDEX = 3;
+    private int RATING_INDEX = 4;
+    private int HYPE_INDEX = 5;
+    private int TIER_INDEX = 6;
+    private int TYPE_INDEX = 7;
 
-    
+    private String splitter = "<>";
 
     public Song(String stringData){
-        String[] songData = stringData.split(";"); //BUG? may cause extra spaces
+        String[] songData = stringData.split(splitter); //BUG? may cause extra spaces
         title = songData[TITLE_INDEX];
         album = songData[ALBUM_INDEX];
         artist = songData[ARTIST_INDEX];
@@ -56,6 +60,57 @@ public class Song {
         System.out.println("Song -- " + title + " by " + artist + " in " + album + " is rated " + rating);
     }
     public String toString(){
-        return title + ";" + album + ";" + artist + ";" + like + ";" + rating + ";" + hype + ";" +  tier + ";" + type;
+        return title + splitter + album + splitter + artist + splitter + like + splitter + rating + splitter + hype + splitter +  tier + splitter + type;
+    }
+
+
+    //getters and setters
+    public String getTitle() {
+        return title;
+    }
+    public String getAlbum() {
+        return album;
+    }
+    public String getArtist() {
+        return artist;
+    }
+    public boolean isLike() {
+        return like;
+    }
+    public double getRating() {
+        return rating;
+    }
+    public boolean isHype() {
+        return hype;
+    }
+    public int getTier() {
+        return tier;
+    }
+    public int getType() {
+        return type;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setAlbum(String album) {
+        this.album = album;
+    }
+    public void setArtist(String artist) {
+        this.artist = artist;
+    }
+    public void setLike(boolean like) {
+        this.like = like;
+    }
+    public void setRating(double rating) {
+        this.rating = rating;
+    }
+    public void setHype(boolean hype) {
+        this.hype = hype;
+    }
+    public void setTier(int tier) {
+        this.tier = tier;
+    }
+    public void setType(int type) {
+        this.type = type;
     }
 }
