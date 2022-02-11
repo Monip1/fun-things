@@ -56,15 +56,15 @@ My Way
         Files.writeString(filePath, toWrite, StandardOpenOption.WRITE);
 
         //printout again
-        // songFile = Files.readString(filePath);
-        // songsArray = songFile.split("\n");
-        // songs.clear();
-        // for(String song: songsArray){
-        //     songs.add(new Song(song));
-        // }
-        // System.out.println("After");
-        // for(int i = 0; i < songs.size(); i++){
-        //     // System.out.println(songs.get(i).toString());
-
+        songFile = Files.readString(filePath);
+        songsArray = songFile.split("\n");
+        songs.clear();
+        for(String song: songsArray){
+            songs.add(new Song(song));
+        }
+        System.out.println("After");
+        for(int i = 0; i < songs.size(); i++){
+            // System.out.println(songs.get(i).toString());
+        }
     }
 }    

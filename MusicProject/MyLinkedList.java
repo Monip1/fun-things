@@ -27,10 +27,11 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	Node head;
 	Node tail;
 
+
 	/**
 	 * A Node class that holds data and references to previous and next Nodes.
 	 */
-	protected class Node {
+	public class Node {
 		E data;
 		Node next;
 		Node prev;
@@ -311,6 +312,11 @@ public class MyLinkedList<E> extends AbstractList<E> {
 			idx++;
 			return (E) left.getElement();
 		}
+
+		//returns next node in the list
+		public Node nextNode(){
+			return right;
+		}
 		/**
 		 * detects if there is an element before the iterator in the list
 		 * @return true if there is an element before the iterator
@@ -336,7 +342,10 @@ public class MyLinkedList<E> extends AbstractList<E> {
 			idx--;
 			return (E) right.getElement();
 		}
-
+		//return previous node in list
+		public Node previousNode(){
+			return left;
+		}
 		/**
 		 * @return the item next to the iterator
 		 */
@@ -405,6 +414,11 @@ public class MyLinkedList<E> extends AbstractList<E> {
 				right.setElement(element);
 			}
 		}
+
+		public void setLocation(Node n){
+			this.right = n;
+			this.left = n.prev;
+		}
 		/**
 		 * removes the element that was last returned by next/previous
 		 */
@@ -447,5 +461,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	public Iterator<E> iterator(){
 		return new MyListIterator();
 	}
+
+	
 
 }//linked list

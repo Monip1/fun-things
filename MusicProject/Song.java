@@ -58,7 +58,8 @@ public class Song {
     }
 
     public void printSongData(){
-        System.out.println("Song -- " + title + " by " + artist + " in " + album + " is rated " + rating);
+        System.out.println("Title: " + title + "\nAlbum: " + album + "\nArtist: " + artist + 
+                "\nLiked: " + like + "\nRating: " + rating + "\nHype: " + hype + "\nTier: " +  tier + "\nType: " + type);
     }
     public String toString(){
         return title + splitter + album + splitter + artist + splitter + like + splitter + rating + splitter + hype + splitter +  tier + splitter + type;
