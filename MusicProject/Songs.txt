@@ -2,7 +2,7 @@ Intro: Long Journey<>TREASURE EP.1: All To Zero<>Ateez<>false<>72.0<>false<>5<>3
 Pirate King<>TREASURE EP.1: All To Zero<>Ateez<>true<>85.0<>true<>3<>1
 Treasure<>TREASURE EP.1: All To Zero<>Ateez<>true<>73.0<>false<>4<>1
 Twilight<>TREASURE EP.1: All To Zero<>Ateez<>true<>65.0<>false<>4<>2
-Stay<>TREASURE EP.1: All To Zero<>Ateez<>false<>32.0<>false<>3<>2
+stay<>TREASURE EP.1: All To Zero<>Ateez<>false<>32.0<>false<>3<>2
 My Way<>TREASURE EP.1: All To Zero<>Ateez<>true<>72.0<>true<>2<>1
 HALA HALA (Hearts Awakened, Live Alive)<>TREASURE EP.2 : Zero To One<>Ateez<>false<>72.0<>false<>5<>3
 Say My Name<>TREASURE EP.2 : Zero To One<>Ateez<>true<>85.0<>true<>3<>1

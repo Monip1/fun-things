@@ -49,8 +49,8 @@ public class Menu {
         song.printSongData();
         System.out.println("State field and replacement as (Field), (replacement)"); 
         input = scanner.nextLine();
-        input = input.toLowerCase();
-        if(input.startsWith("title, ")){
+        // input = input.toLowerCase();
+        if(input.toLowerCase().startsWith("title, ")){
             // System.out.println("changing title"); //helper
              song.setTitle(input.substring(7));
         }
@@ -68,7 +68,7 @@ public class Menu {
         while(albumIter.hasNext()){
             if(input.contains((albumIter.next().getElement().getAlbum()))){
                 albumStart = albumIter.previousItem();      
-                albumStart.getElement().printSongData();
+                // albumStart.getElement().printSongData();
                 iter.setLocation(albumStart);
                 albumName = iter.nextItem().getAlbum();     //suspicious
                 break;
@@ -104,7 +104,7 @@ public class Menu {
             input = scanner.nextLine();
             if(input.contains("edit")){
                 edit();
-                songs.get(2).printSongData();
+                // songs.get(2).printSongData(); //help
                 break;
             }
             else if(input.contains("add")){

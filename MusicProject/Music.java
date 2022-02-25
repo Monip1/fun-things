@@ -53,7 +53,7 @@ My Way
         for(int i = 0; i < songs.size(); i++){
             toWrite += songs.get(i) + "\n";
         }
-        Files.writeString(filePath, toWrite, StandardOpenOption.WRITE);
+        Files.writeString(filePath, toWrite, StandardOpenOption.TRUNCATE_EXISTING);
 
         //printout again
         songFile = Files.readString(filePath);
