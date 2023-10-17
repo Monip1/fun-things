@@ -8,56 +8,26 @@ output: pdf_document
 
 # Learning Goals
 
-In this assignment, we will be learning how to
-
-1. Use Java library classes and methods,
-1. Write conditional code, and
-1. Construct systems with more complex class relationships.
+In this assignment, we will learn.
 
 # Positive Rate, Gear Up
 
-_Last October, shortly after quitting my job and starting my Master's program,
-I was in the Bay Area visiting a good friend from college. We decided to book a
-tour flight around the Golden Gate Bridge in a Cessna 172. I sat in the co-pilot
-seat and my friend in the backseat. I was allowed to fly the plane a little over
-the bay. I was very excited as it was a bit of a dream come true for me, until
-the sun went down and I became quite seriously airsick from the turbulence.
-When we touched down, I was completely pale and almost threw up._
-
-In this assignment, we continue building our flight scheduling system by adding
-a **ticket booking** feature, as well as a **flight cancellation** mechanism that,
-like all major airlines, tries to scam customers out of their cash.
+_Jerry Likes Planes_
 
 ## Starter Code
 
-We will still have the `Flight` class and the `Passenger` class. Some modifications
-will need to be made to accommodate new features introduced in this PA. In addition,
-we introduce a new class called `Ticket`. We will detail what needs to be done for
-each of these classes in the following sections.
+We will use modified verions of the `Flight` and `Passenger` class.
+We will make a new `Ticket` class.
 
 ## DIY Testing: The `FlightTest` Class
 
-Once again, this is where you can test your own code. We will not be providing too
-many testing instructions for this PA, nor will our autograder be inspecting the
-contents of your `FlightTest` class. (In fact, you don't even need to name it
-`FlightTest`. You can name it `BokChoi` or `OfficeChair` if you like, but that
-would not make much sense.)
-
-However, we will be asking you about your testing workflow if you are selected for
-an in-person code review.
+It's up to you to adaquately test your own code.
+If you are selected for an in-person code review, you *will* be questioned on your testing.
 
 ## Library Class: `LocalDateTime`
 
-We will start dealing with time in this assignment. To do that, we introduce a class
-that is built into Java (just like the `String` class): the `LocalDateTime` class.
-
-In this section, we will only introduce the necessary parts of the `LocalDateTime`
-class that are relevant for this PA. For a full description of its features, you
-can read [the Java documentations here](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html).
-
-[Note: Reading documentation is a very important skill for a computer scientist/
-software engineer. This is something that will become increasingly clear as you
-progress through increasingly advanced CSE courses.]
+To deal with time we will be using `LocalDateTime` which is a class built into Java like `String` is.
+We will give you detailed descriptions of the functions you will need and how to use them but if you would like a full description of its features, you can read [the Java documentations here](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html).
 
 **Creating a `LocalDateTime` object:** For this class, we do not use the traditional
 `new` keyword to create an object. Instead, the library provides us with a convenient
@@ -292,16 +262,7 @@ There are several things to pay attention to here:
    of a `Ticket` object is synonymous to a successful booking, you can do the incrementing
    in the `Ticket` constructor. Think about which option is the superior choice here!
 
-[Note: While there is, in my opinion, a definitive answer to which is the better choice
-for incrementing `numBooked`, the very existence of the `numBooked` field is a pretty
-bad idea: In a real world commercial database system, you would never see a silly field
-like this. One day you will hopefully understand why. But if you are curious, come talk
-to us at office hours!]
-
 ## Final Problem: Cancelling a flight.
-
-_Oh no! I had booked a weekend flight to Las Vegas, but my `[REDACTED]` of a TA in
-CSE 11 made the PA like insanely difficult so now I have to stay home to finish it!_
 
 In the `Ticket` class, create a `cancel` method that, when called, cancels a Ticket
 booking and issues a refund to the passenger. The method should return a boolean value
